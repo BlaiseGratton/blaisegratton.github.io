@@ -1,0 +1,54 @@
+/********************************************************************
+Header Styling
+********************************************************************/
+
+
+
+
+header {
+  position: fixed;
+  width: 100%;	/*trying to make a fixed nav bar at top*/
+  height: 80px;
+  content: "";
+  padding: 2px;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+header nav ul li {
+  display: inline-block;
+  margin: 2px 3%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+
+/********************************************************************
+About Page Styling
+********************************************************************/
+
+
+section {
+}
+
+img {
+  border-radius: 50%;
+  max-width: 280px;
+  max-height: 306px;
+  float: left;
+  clear: right;
+  margin: 5% 60px 5% 10px;
+}
+
+div#about {
+  background-color: lightblue;
+  padding: 10%;
+  margin: auto;
+  max-width: 1200px;
+}
