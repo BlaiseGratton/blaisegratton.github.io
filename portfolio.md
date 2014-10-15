@@ -10,4 +10,4 @@ permalink: /portfolio/
 [Solved Javascript Koans](https://github.com/BlaiseGratton/javascript_koans)
 
 
-[This Jekyll website](http://localhost:4000/about/)
+[This Jekyll website](http://localhost:4000/)

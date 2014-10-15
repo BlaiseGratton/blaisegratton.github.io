@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 0px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -35,8 +35,8 @@
         color: $text-color;
         line-height: $base-line-height;
 	text-decoration: none;
-	 -webkit-transition: all 1s ease .2s;		    /*		  user added	      */
-	    transition: all .5s ease .5s;
+	 -webkit-transition: all .5s ease .1s;		    /*		  user added	      */
+	    transition: all .5s ease .1s;
 
 
         // Gaps between nav items, but not on the first one
@@ -46,7 +46,7 @@
     }
     
     .page-link:hover {
-	color: #bbaabb;
+	color: #f2f4f2;
     }
     
     @include media-query($on-palm) {
@@ -66,11 +66,11 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+	    //background-color: blue;
 
             > svg {
                 width: 18px;
                 height: 15px;
-
                 path {
                     fill: $grey-color-dark;
                 }
@@ -80,11 +80,13 @@
         .trigger {
             clear: both;
             display: none;
+	    padding-top: 10px;
         }
 
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
+	    background-color: lightblue;
         }
 
         .page-link {
