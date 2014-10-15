@@ -34,13 +34,21 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+	text-decoration: none;
+	 -webkit-transition: all 1s ease .2s;		    /*		  user added	      */
+	    transition: all .5s ease .5s;
+
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
     }
-
+    
+    .page-link:hover {
+	color: #bbaabb;
+    }
+    
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -82,8 +90,9 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-        }
-    }
+	  } 	    
+     }   
+    
 }
 
 

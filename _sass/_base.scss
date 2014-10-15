@@ -162,6 +162,13 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
+    background-color: lightblue;				/***********************user added*******/
+    box-shadow: 10px 10px 15px 0px #ccc;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #afe0e8;
+    
+
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$spacing-unit}));
         max-width:         calc(800px - (#{$spacing-unit}));
