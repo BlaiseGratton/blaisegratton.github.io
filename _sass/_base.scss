@@ -20,6 +20,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    background-color: #ededed;					  /*    overrides previous line*/
     -webkit-text-size-adjust: 100%;
 }
 
@@ -162,11 +163,11 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    background-color: lightblue;				/***********************user added*******/
-    box-shadow: 10px 10px 15px 0px #ccc;
+    background-color: #b1cfde;				/***********************user added*******/
+    box-shadow: 5px 5px 15px 0px #ccc;
     border-style: ridge;
     border-width: 2px;
-    border-color: #afe0e8;
+    border-color: #aeccdc;
     
 
     @include media-query($on-laptop) {
