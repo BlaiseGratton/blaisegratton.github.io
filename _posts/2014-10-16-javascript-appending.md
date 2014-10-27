@@ -11,9 +11,9 @@ I have only been working with Javascript for a short time, so my current MO is t
         2.     var $button = document.querySelector('button');
         3. 
         4.     $button.addEventListener('click', function(){
-        5. 	var $target = document.querySelector('.target');
-        6. 	var docFragment = createPTag();
-        7. 	$target.appendChild(docFragment);
+        5. 	      var $target = document.querySelector('.target');
+        6. 	      var docFragment = createPTag();
+        7. 	      $target.appendChild(docFragment);
         8.     });
         9. });
         10. 
