@@ -20,7 +20,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
-    background-color: #ededed;					  /*    overrides previous line*/
+    background-color: #ededed;					  //    overrides previous line
     -webkit-text-size-adjust: 100%;
 }
 
@@ -154,7 +154,7 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+.wrapper, .resume-wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -178,6 +178,9 @@ pre {
     }
 }
 
+.resume-wrapper {
+    background-color: #fff;
+}
 
 
 /**
