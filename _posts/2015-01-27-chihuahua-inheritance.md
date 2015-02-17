@@ -44,3 +44,47 @@ All well and good - dogs have a name and they bark. The subclass of Chihuahua is
         14.        return "Happy";
         15.    }
         16.}
+
+The Chihuahua subclass is even further extended to the subclass of ReallyYippyChihuahua (which is no more yippy than the original Chihuahua class...):
+
+        1. public class ReallyYippyChihuahua : Chihuahua
+        2. {
+        3.     public ReallyYippyChihuahua(string name) : base(name) { }
+        4. 
+        5.     public new string Wag()
+        6.     {
+        7.         return "WAG WAG WAG!!";
+        8.     }
+        9. }
+
+Such are the subclasses of Dog related to chihuahuas in the C# koans. Tazza&rsquo;s subclass would be something like WorldsChillestChihuahua, inheriting from the Chihuahua class:
+
+        1.  public class WorldsChillestChihuahua : Chihuahua
+        2.  {
+        3.       public WorldsChillestChihuahua(string name) : base(name) 
+        4.       {
+        5.       }
+        6.  
+        7.       public override string Bark()
+        8.       {
+        9.           return "yips *once*";
+        10.       }
+        11.  
+        12.      public string NeedsSomething()
+        13.      {
+        14.          return "*furiously waves paws in the air*";
+        15.      }
+        16.      
+        17.      public bool IsAwesome()
+        18.      {
+        19.          return true;
+        20.      }
+        21. }
+
+So now, we can instantiate the class of WorldsChillestChihuahua:
+
+    WorldsChillestChihuahua tazza = new WorldsChillestChihuahua("Tazza");
+
+tazza.IsAwesome() returns true because she is! I mean, just look at this dog. 
+
+<img src="public/tazza1.png" alt="photo of Tazza the chihuahua">
