@@ -87,4 +87,4 @@ So now, we can instantiate the class of WorldsChillestChihuahua:
 
 tazza.IsAwesome() returns true because she is! I mean, just look at this dog. 
 
-<img src="public/tazza1.png" alt="photo of Tazza the chihuahua">
+<img src="/public/tazza1.png" alt="photo of Tazza the chihuahua">
