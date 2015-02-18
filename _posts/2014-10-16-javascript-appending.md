@@ -44,7 +44,11 @@ The createDocumentFragment() method on line 12 instructs Javascript to assemble 
 
 This is what is now contained by the variable $div. Running appendChild on the variable docFragment in line 19 (which is really document.createDocumentFragment from line 12) consequently adds the variable $div as the compiled document fragment, which line 21 returns as the output of the function. 
 
-So the document fragment <div class="myClass"><p>Hi</p></div> is what is returned back to line 6, which the variable docFragment on line 6 is then equated to. Going down to line 7 tells Javascript to add the document fragment as a child to the $target variable, which is the main div element in the html document. This results in the div.target now containing the div.class which has the paragraph element displaying &ldquo;Hi&rdquo;.
+So the document fragment 
+
+    <div class="myClass"><p>Hi</p></div>
+
+is what is returned back to line 6, which the variable docFragment on line 6 is then equated to. Going down to line 7 tells Javascript to add the document fragment as a child to the $target variable, which is the main div element in the html document. This results in the div.target now containing the div.class which has the paragraph element displaying &ldquo;Hi&rdquo;.
 
 This probably seems like way too much explaining for a relatively simple task, but even talking through it like this has greatly helped my understanding of how Javascript begins to act on the DOM.
 
