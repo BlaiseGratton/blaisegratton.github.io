@@ -1,5 +1,24 @@
+.resume-header {
+  text-align: center;
+}
+
 .print {
   display: none;
 }
 
+.skills > div {
+  display: inline-block;
+  width: 32%;
+  padding: 0;
+  margin: 0;
+}
 
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  padding-left: 33%;
+}
