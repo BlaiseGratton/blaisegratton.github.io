@@ -2,8 +2,34 @@
   text-align: center;
 }
 
+.resume-section-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact > p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .print {
   display: none;
+}
+
+.content-section {
+  margin-top: 20px;
 }
 
 .skills > div {
