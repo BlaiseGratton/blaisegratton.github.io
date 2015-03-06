@@ -4,7 +4,7 @@
 
 .resume-section-header {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .contact > p {
@@ -16,12 +16,21 @@
   text-align: center;
 }
 
+.skills li, .experience-content, .contact > * {
+  font-size: 16px;
+}
+
 .left {
   float: left;
 }
 
 .right {
   float: right;
+  font-size: 1rem;
+}
+
+.right a {
+  font-size: .75rem;
 }
 
 .print {
@@ -34,7 +43,7 @@
 
 .skills > div {
   display: inline-block;
-  width: 32%;
+  width: 24%;
   padding: 0;
   margin: 0;
 }
@@ -46,5 +55,55 @@
 }
 
 .skills li {
-  padding-left: 33%;
+  padding-left: 37%;
+  margin: 0;
+}
+
+.experience-heading {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+p.experience-heading {
+  xmargin-bottom: 15px;
+}
+
+.experience-content {
+  clear: both;
+  margin-top: 2px;
+  padding: 0 20px;
+}
+
+.experience-content > h5 {
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 15px;
+}
+
+.projects {
+  padding: 2px 40px;
+}
+
+.project-title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.education-heading {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.education {
+  margin-bottom: 110px;
+}
+
+.extended-content {
+  margin-top: 4px;
+}
+
+.project-title-wrapper {
+  margin-bottom: 6px;
 }

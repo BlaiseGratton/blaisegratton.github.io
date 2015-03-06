@@ -1,0 +1,64 @@
+.page-view, .masthead, .sidebar-toggle {
+  display: none;
+}
+
+.print {
+  display: inherit;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container, .content {
+  min-width: 690px;
+  margin: 0;
+  padding: 0;
+}
+
+p, li {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.resume {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.skills li, .contact > * {
+  font-size: 12px;
+}
+
+.resume-header {
+  margin-top: 0;
+}
+
+.resume-section-header {
+  margin-top: 37px;
+  margin-bottom: 10px;
+}
+
+.content-section {
+  margin-top: 6px;
+}
+
+#iMargin-p {
+  margin-bottom: 0;
+}
+
+.education {
+  margin-bottom: 0px;
+}
+
+.extended-content {
+  font-size: 12px;
+  margin-top: 12px;
+}
