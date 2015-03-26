@@ -33,12 +33,34 @@ a {
   margin: 0;
 }
 
-.skills li, .contact > * {
+.skills li, .contact > p {
   font-size: 12px;
 }
 
+.contact > h2 {
+  margin: 2px;
+  padding: 0;
+}
+
+img {
+  height: 124px;
+  display: inline-block;
+  margin: auto;
+  float: right;
+  margin-right: 47px;
+  border-radius: 3px;
+  position: relative;
+  top: 8px;
+}
+
+.header-wrapper {
+  width: 50%;
+  margin-left: 142px;
+  display: inline-block;
+}
+
 .resume-header {
-  margin-top: 0;
+  margin: 0;
 }
 
 .resume-section-header {

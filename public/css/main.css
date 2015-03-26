@@ -1,3 +1,20 @@
+img {
+  height: 124px;
+  display: inline-block;
+  margin: auto;
+  float: right;
+  margin-right: 47px;
+  border-radius: 3px;
+}
+
+.header-wrapper {
+  width: 50%;
+}
+
+.header-wrapper {
+  display: inline-block;
+}
+
 .resume-header {
   text-align: center;
 }
