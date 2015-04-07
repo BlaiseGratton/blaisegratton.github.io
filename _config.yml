@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Blaising Grattles
 tagline:             'Blaise Gratton lobs blog blabber'
-description:         'Currently studying at Nashville Software School. A place for coding, classics, and music. Powered by <a href="https://github.com/jekyll/jekyll" target="_blank">Jekyll</a>'
+description:         'Graduate of Nashville Software School (hire me!). A place for coding, classics, and music. Powered by <a href="https://github.com/jekyll/jekyll" target="_blank">Jekyll</a>'
 url:                 http://lanyon.getpoole.com
 baseurl:             /
 github.repo:         https://github.com/BlaiseGratton
